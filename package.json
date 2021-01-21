@@ -1,6 +1,9 @@
 {
   "name": "FayeFit-website",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/fayecamargo/FayeFit-website/issues"
   },
-  "homepage": "https://github.com/fayecamargo/FayeFit-website#readme"
+  "homepage": "https://github.com/fayecamargo/FayeFit-website#readme",
+  "dependencies": {
+    "node": "^15.4.0"
+  }
 }
