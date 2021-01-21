@@ -1,0 +1,24 @@
+{
+  "name": "FayeFit-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fayecamargo/FayeFit-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fayecamargo/FayeFit-website/issues"
+  },
+  "homepage": "https://github.com/fayecamargo/FayeFit-website#readme"
+}
