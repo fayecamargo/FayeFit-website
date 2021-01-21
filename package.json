@@ -2,7 +2,7 @@
   "name": "FayeFit-website",
   "version": "1.0.0",
   "engines": {
-    "node": "14.x"
+    "node": "15.4.0"
   },
   "description": "",
   "main": "index.js",
