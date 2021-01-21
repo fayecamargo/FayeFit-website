@@ -2,14 +2,13 @@
   "name": "FayeFit-website",
   "version": "1.0.0",
   "engines": {
-    "node": "15.4.0"
+    "node": "15.x"
   },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start -p $PORT",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "heroku-postbuild": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +24,8 @@
   },
   "homepage": "https://github.com/fayecamargo/FayeFit-website#readme",
   "dependencies": {
-    "node": "^15.4.0"
+    "express": "^4.17.1",
+    "node": "^15.4.0",
+    "nodemon": "^2.0.7"
   }
 }
